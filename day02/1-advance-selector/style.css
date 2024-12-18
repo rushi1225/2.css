@@ -1,0 +1,32 @@
+/* universal css */
+/* refreshing css/ reseting css / reboting css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1 descendant combinator ( space ) */
+
+.parent p{
+    color: rgb(207, 125, 18);
+}
+
+
+/* 2 child combinator ( > ) */
+
+.parent > p{
+    font-size: 30px;
+}
+
+/* 3 next sibling combinator( + ) */
+.parent + div{
+    background-color: aqua;
+}
+
+/* 4 genral sibling combinator ( ~ )  */
+
+.parent ~{
+    background-color: rebeccapurple;
+}

@@ -1,0 +1,50 @@
+/* em  */
+
+.box{
+    height: 50vh;
+    background-color: aquamarine;
+    border: 3px solid red;
+    font-size: 16px;
+}
+
+/* em are depend on parent
+1em=16px   (value*1)
+2em=32px   (value *2)
+em only check font size then multiply it
+ */
+.box .first-para{
+    font-size: 1em;
+}
+
+.box .second-para{
+    font-size: 2em;
+    color: coral;
+}
+
+
+
+
+
+
+/* rem */
+
+/* rem getting the root value */
+:root{
+    font-size: 10px;
+}
+
+.box2{
+font-size: 2rem;
+background-color: brown;
+height: 40rem;
+border: 3px solid black;
+}
+
+.box2 .my-para1{
+    font-size: 2rem;
+}
+
+
+.box2 .my-para2 {
+    font-size: 4rem;
+}
