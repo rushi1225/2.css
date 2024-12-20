@@ -52,7 +52,7 @@ a:link{
 
 /* 3) :visited--> visit link then kink color black  */
 a:visited{
-    color: black;
+    color:chartreuse
 }
 
 

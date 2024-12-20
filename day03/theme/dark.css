@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* light mode */
+:root{
+    --primary-bg-color: white;
+    --primary-text-color: black;
+}
+
+
+
+/* dark mode */
+/* @media(prefers-color-scheme:dark) { */
+    :root.dark{
+        --primary-bg-color: black;
+        --primary-text-color: white;
+    }
+/* } */
+
+
+
+
+
+
+div {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    height: 100vh;
+}

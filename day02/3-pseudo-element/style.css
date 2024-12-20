@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 200vh;
+    width: 200px;
+    background-color: aquamarine;
+}
+
+/* pseudo element */
+
+body::-webkit-scrollbar {
+    background-color: rgb(51, 5, 5);
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(241, 11, 11);
+}
+
+/* select text on browser then background color change */
+*::selection {
+    background-color: chocolate;
+}

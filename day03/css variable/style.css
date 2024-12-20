@@ -1,0 +1,39 @@
+/* css variable  or custom properties*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--primary-color:red;
+--secondary-color:blue;
+--primary-text-color:white;
+--common-padding: 0 8vw;
+--my-font:'Gill Sans',
+    'Gill Sans MT',
+    Calibri,
+    'Trebuchet MS',
+    sans-serif;
+}
+
+
+/* specific font & custom font */
+@font-face {
+    font-family: "uber" ;
+    src: url(./);
+}
+
+h1{
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    padding: var(--common-padding);
+    font-family:var(--my-font)
+}
+
+
+
+
+
+/* dark theme and light theme  */
