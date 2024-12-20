@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 1px solid black;
+
+
+    /* animation: rotation 4s linear infinite ; */
+    
+    animation: move-left-right 4s linear infinite ;
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+@keyframes rotation {
+    from{
+        rotate: 0deg;
+    background-color: chocolate;
+    } to{
+        rotate: 360deg;
+        background-color: aqua;
+    }
+}
+
+
+
+@keyframes move-left-right {
+    0%{
+translate: 0;
+    }
+    50%{
+translate: 40vw 0;
+    }
+    100%{
+translate: 0;
+    }
+}

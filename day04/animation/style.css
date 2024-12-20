@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+    border: 1px solid black;
+
+                   /* transition  */
+    /* transition: scale 200ms ease-in-out; */
+
+                    /* transform */
+    transition: transform 200ms ease-in-out;
+
+
+    /* transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out; */
+}
+
+
+
+.box:hover {
+                  /* transition */
+    scale: 1.2;
+
+    /* rotate: 45deg; */
+    /* translate: 40px 80px; */
+
+
+
+                    /* transform */
+transform: scale(1.2) rotate(360deg) ;
+}
